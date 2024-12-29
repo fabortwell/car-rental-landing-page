@@ -12,8 +12,59 @@ body{
     --primary-color: #1572D3; 
     --secondary-color: #000000;
     --text-color: #5F5F5F;
-    --background-color: #FFFFFF;
+    --backgrnd-color: #FFFFFF;
     --heading-color: #ECF5FF;
     --herotext-color: #333333;
     --icon-color: #6D6D6D;
+    --listitems-color: #484848;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.3rem;
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+li a{
+    text-decoration: none;
+    color: var(--listitems-color);
+    font-size: 1.1rem;
+    font-family: "Roboto", serif;
+}
+
+.logo h2{
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-family: "Roboto", serif;
+    text-transform: uppercase;
+}
+#sign_in{
+    outline: none;
+    border: none;
+    background-color: var(--backgrnd-color);
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#sign_up{
+    outline: none;
+    border: none;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    width: 7rem;
+    border-radius: 0.5rem;
+    color: var(--backgrnd-color);
+    font-size: 1.1rem;
+    font-weight: bold;
 }
