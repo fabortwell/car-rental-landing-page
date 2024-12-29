@@ -14,11 +14,18 @@ body{
     --text-color: #5F5F5F;
     --backgrnd-color: #FFFFFF;
     --heading-color: #ECF5FF;
-    --herotext-color: #333333;
+    --herotext-color: #242424;
     --icon-color: #6D6D6D;
     --listitems-color: #484848;
+    --heropara-color: #272727;
+    --downlabel-color: #3E3E3E;
+    --iconslabel-color: #747474;
 }
-
+.navbar-wrap{
+    position: absolute;
+    position: sticky;
+    top: 0;
+}
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -55,6 +62,7 @@ li a{
     color: var(--text-color);
     font-size: 1.1rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #sign_up{
@@ -67,4 +75,101 @@ li a{
     color: var(--backgrnd-color);
     font-size: 1.1rem;
     font-weight: bold;
+    cursor: pointer;
+}
+#sign_up:hover{
+     background-color: var(--secondary-color);
+     color: var(--backgrnd-color);
+}
+.hero-section-wrap{
+    padding: 2rem;
+}
+.hero-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+#right-hero-image{
+   width: 65rem;
+   background-color: transparent;
+}
+.left-hero-section{
+    margin-left: 10rem;
+}
+.hero-title{
+ color: var(--herotext-color);
+ font-size: 3rem;
+ font-weight: 800;
+ letter-spacing: 0.2rem;
+}
+.hero-para{
+    font-size: 1.2rem;
+    color: var(--heropara-color);
+    letter-spacing: 0.1rem;
+}
+.icons-android-ios{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+#hero-text-colored{
+    color: var(--primary-color);
+}
+
+.right-hero-section img{
+    height: auto;
+    width: 50rem;
+}
+
+.down-label{
+    display: flex;
+    padding: 1.3rem;
+    justify-content: space-around;
+    background-color: var(--backgrnd-color);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 4rem;
+}
+.down-label h3{
+color: var(--downlabel-color);
+font-weight: 500;
+}
+
+.search-btn{
+    border: none;
+    background-color: var(--primary-color);
+    width: 15rem;
+    color: var(--backgrnd-color);
+    border-radius: 0.5rem;
+}
+.search-btn:hover{
+    background-color: var(--secondary-color);
+    color: var(--backgrnd-color);
+}
+.section-1{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+#icons-label{
+    font-size: 2.8rem;
+    color: var(--iconslabel-color);
+}
+
+.section-2{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.section-3{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+#content-text-labels{
+   color: var(--icon-color);
+   font-size: 0.9rem;
+   font-weight: lighter;
 }
