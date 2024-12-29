@@ -7,7 +7,9 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 :root {
     --primary-color: #1572D3; 
     --secondary-color: #000000;
@@ -44,8 +46,8 @@ ul{
 
 li a{
     text-decoration: none;
-    color: var(--listitems-color);
-    font-size: 1.1rem;
+    color: var(--herotext-color);
+    font-size: 1.2rem;
     font-family: "Roboto", serif;
 }
 
@@ -91,6 +93,8 @@ li a{
 }
 #right-hero-image{
    width: 65rem;
+   position: relative;
+   overflow: hidden;
    background-color: transparent;
 }
 .left-hero-section{
@@ -225,4 +229,63 @@ color: var(--downlabel-color);
     font-size: 1rem;
     font-weight: 500;
     color: var(--listitems-color);
+}
+
+.icons-scroll{
+    display: flex;
+    justify-content: space-between;
+}
+.choose-us-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    padding: 1.5rem;
+}
+.left-chooseus-section img{
+    height: auto;
+    width: 50rem;
+}
+.right-chooseus-section{
+ margin-right: 18rem;
+}
+
+.choose-us-header{
+    background-color: var(--heading-color);
+    width: 12rem;
+    padding: 2rem;
+    height: 1rem;
+    border-radius: 0.7rem;
+    color: var(--primary-color);
+    text-align: left;
+}
+.choose-us-text{
+    color: var(--listitems-color);
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    text-align: left;
+}
+.what-we-offer{
+    display: flex;
+    gap: 1rem;
+}
+
+.quality-prices{
+    /* font-size: 1.5rem; */
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+.good-services{
+    color: var(--text-color);
+    /* line-height: 1.5rem; */
+}
+#price{
+    background-color: var(--heading-color);
+    font-size: 2.4rem;
+    color: var(--primary-color);
+    border-radius: 0.8rem;
+    width: 2rem;
+    height: auto;
+    text-align: center;
+    padding: 1.9rem;
 }
