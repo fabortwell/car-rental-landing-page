@@ -70,7 +70,8 @@ li a{
     border: none;
     background-color: var(--primary-color);
     padding: 1rem;
-    width: 7rem;
+    width: 9rem;
+    height: auto;
     border-radius: 0.5rem;
     color: var(--backgrnd-color);
     font-size: 1.1rem;
@@ -93,7 +94,7 @@ li a{
    background-color: transparent;
 }
 .left-hero-section{
-    margin-left: 10rem;
+    margin-left: 8.4rem;
 }
 .hero-title{
  color: var(--herotext-color);
@@ -172,4 +173,56 @@ font-weight: 500;
    color: var(--icon-color);
    font-size: 0.9rem;
    font-weight: lighter;
+}
+.how-it-works-wrapit{
+    margin-top: 6rem;
+    padding: 2rem;
+}
+.text-content-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-text{
+    width: 8rem;
+    height: auto;
+    font-size: 1rem;
+    background-color: var(--heading-color);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    font-weight: 500;
+}
+.sub-header{
+font-size: 2.4rem;
+color: var(--downlabel-color);
+}
+.how-it-works-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 2rem;
+}
+#how-it-works-icon{
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 2.8rem;
+    padding: 2rem;
+    border-radius: 0.9rem;
+    color: var(--primary-color);
+    background-color: var(--heading-color);
+}
+.how-it-works-header{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--heropara-color);
+}
+.choose-car{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--listitems-color);
 }
