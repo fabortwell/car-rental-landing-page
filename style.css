@@ -46,8 +46,9 @@ ul{
 
 li a{
     text-decoration: none;
-    color: var(--herotext-color);
-    font-size: 1.2rem;
+    color: var(--iconslabel-color);
+    font-weight: 600;
+    font-size: 1.3rem;
     font-family: "Roboto", serif;
 }
 
@@ -119,6 +120,7 @@ li a{
 
 #hero-text-colored{
     color: var(--primary-color);
+    text-decoration: solid 0.5rem underline;
 }
 
 .right-hero-section img{
@@ -168,6 +170,7 @@ font-weight: 500;
     align-items: center;
     gap: 1.5rem;
 }
+
 .section-3{
     display: flex;
     align-items: center;
@@ -241,9 +244,18 @@ color: var(--downlabel-color);
     margin-top: 10rem;
     padding: 1.5rem;
 }
+
+.left-chooseus-section{
+    background-image: url(images/Vector22.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
 .left-chooseus-section img{
     height: auto;
     width: 50rem;
+    margin-top: 10rem;
 }
 .right-chooseus-section{
  margin-right: 18rem;
@@ -288,4 +300,27 @@ color: var(--downlabel-color);
     height: auto;
     text-align: center;
     padding: 1.9rem;
+}
+.cars-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head-cars{
+    background-color: var(--heading-color);
+    text-align: center;
+    padding: 1.6rem;
+    width: 20rem;
+    height: 0.8rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+}
+.head-cars-text{
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--secondary-color);
 }
