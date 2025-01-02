@@ -25,11 +25,11 @@ html {
     --star-color: #EFBF14;
     --review-color: #E0E0E0;
 }
-.navbar-wrap{
+/* .navbar-wrap{
     position: absolute;
     position: sticky;
     top: 0;
-}
+} */
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -93,6 +93,7 @@ li a{
     display: flex;
     justify-content: space-between;
 }
+
 #right-hero-image{
    width: 65rem;
    position: relative;
@@ -430,4 +431,26 @@ font-size: 1rem;
 .price-2{
     color: var(--secondary-color);
     font-size: bold;
+}
+#search-all{
+    border: 0.1rem solid var(--icon-color);
+    outline: none;
+    height: auto;
+    background-color: var(--backgrnd-color);
+    color: var(--icon-color);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+} 
+#search-all i{
+    margin-left: 0.7rem;
+    font-size: 1.1rem;
+}
+.search-all-button{
+display: flex;
+justify-content: center;
+margin-top: 3rem;
+
 }
