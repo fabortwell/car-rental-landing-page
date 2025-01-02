@@ -448,9 +448,37 @@ font-size: 1rem;
     margin-left: 0.7rem;
     font-size: 1.1rem;
 }
+#search-all:hover{
+    background-color: var(--primary-color);
+    color: var(--backgrnd-color);
+    font-weight: bold;
+}
 .search-all-button{
 display: flex;
 justify-content: center;
 margin-top: 3rem;
 
+}
+.testimonials{
+  
+    background-color: var(--heading-color);
+    padding: 4rem;
+    margin-top: 5rem;
+}
+.testimonial-wrap{
+    display: flex;
+    justify-content: center;
+}
+.left-testimoial-image img{
+    object-fit: contain;
+}
+.testimonials-head-text {
+   display: flex;
+    background-color: var(--heading-color);
+    color: var(--primary-color);
+    border-radius: 0.6rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.testimonials-sub-text{
+   text-align: center;
 }
