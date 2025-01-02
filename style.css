@@ -24,6 +24,7 @@ html {
     --iconslabel-color: #747474;
     --star-color: #EFBF14;
     --review-color: #E0E0E0;
+    --testimonial-color: #1572D3;
 }
 /* .navbar-wrap{
     position: absolute;
@@ -459,26 +460,82 @@ justify-content: center;
 margin-top: 3rem;
 
 }
+.testimoials-display{
+    display: flex;
+}
 .testimonials{
-  
     background-color: var(--heading-color);
     padding: 4rem;
     margin-top: 5rem;
 }
+.all-testimonials-wrap{
+ display: flex;
+}
 .testimonial-wrap{
     display: flex;
-    justify-content: center;
+    padding: 1rem;
 }
-.left-testimoial-image img{
-    object-fit: contain;
+#testimonial-image{
+ width: 25rem;
+ height: 29rem;
+ object-fit: cover;
 }
 .testimonials-head-text {
-   display: flex;
-    background-color: var(--heading-color);
-    color: var(--primary-color);
-    border-radius: 0.6rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+text-align: center;
+margin: 0 auto;
+text-transform: uppercase;
+font-size: 1rem;
+font-weight: 600;
+padding: 0.9rem;
+width: 12rem;
+background-color: var(--heading-color);
+color: var(--primary-color);
+border-radius: 0.6rem;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .testimonials-sub-text{
    text-align: center;
+   font-size: 3rem;
+   font-weight: 300;
+}
+.right-testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--backgrnd-color);
+    padding: 2.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.testimonial_star_rating i{
+   color: var(--star-color);
+   font-size: 1rem;
+}
+.rating-5-star{
+    font-size: 3rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+#stars{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.testimonial-content{
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    letter-spacing: 0.1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: var(--text-color);
+}
+.testimonial-name{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.testimonial-location{
+    font-size: 0.8rem;
+    margin-top: 7rem;
+    color: var(--text-color);
 }
