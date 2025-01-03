@@ -89,6 +89,7 @@ li a{
 }
 .hero-section-wrap{
     padding: 2rem;
+    padding-top: 3rem;
 }
 .hero-wrap{
     display: flex;
@@ -167,7 +168,6 @@ font-weight: 500;
     font-size: 2.8rem;
     color: var(--iconslabel-color);
 }
-
 .section-2{
     display: flex;
     align-items: center;
@@ -244,7 +244,7 @@ color: var(--downlabel-color);
 .choose-us-section{
     display: flex;
     justify-content: space-between;
-    margin-top: 10rem;
+    margin-top: 3rem;
     padding: 1.5rem;
 }
 
@@ -327,6 +327,7 @@ color: var(--downlabel-color);
 }
 .cars-wrap{
     padding: 1rem;
+    padding-top: 7rem;
 }
 .cars-sect-wrap{
     display: flex;
@@ -538,4 +539,39 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     font-size: 0.8rem;
     margin-top: 7rem;
     color: var(--text-color);
+}
+.get-in-touch{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+.get-in-touch-at{
+    color: var(--primary-color);
+    background-color: var(--heading-color);
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+.get-in-touch-icons-wrap{
+    display: flex;
+    gap: 1rem
+}
+.get-in-touch-header{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+.free-color{
+    color: var(--primary-color);
+    font-size: 2.6rem;
+}
+.get-in-touch-sub.text{
+    font-size: 0.1rem;
+    color: var(--text-color);
+    font-weight: 100;
+
 }
