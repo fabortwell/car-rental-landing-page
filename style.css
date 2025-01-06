@@ -225,8 +225,6 @@ color: var(--downlabel-color);
 .how-it-works-wrap{
     display: flex;
     justify-content: space-around;
-    /* gap: 10rem;
-    padding: 2rem; */
 }
 #how-it-works-icon{
     width: 3rem;
